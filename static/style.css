@@ -1,0 +1,48 @@
+.img-fit{
+	object-fit: cover;
+}
+.display-banner{
+	background-image: url('../img/designer_office.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.card{
+	margin-bottom: 14px;
+}
+.photo{
+  width: 100%;
+  height: 20vh;
+  /*border-top-left-radius: calc(.25rem - 1px);
+  border-top-right-radius: calc(.25rem - 1px);*/
+  object-fit: cover;
+  /*padding: 1rem;*/
+  /*margin: .5rem 0;*/
+  /*border: 2px solid #d5d5d5;*/
+  /*border-radius: 53%;*/
+}
+
+@media screen and (max-width:550px){
+  .photo{
+    width: 100%;
+    height: 10vh;
+   /* border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);*/
+    object-fit: cover;
+    /*padding: 1rem;
+    margin: .5rem 0;
+    border: 2px solid #d5d5d5;*/
+    /*border-radius: 53%;*/
+  }
+   .card{
+    margin-bottom: 10px;
+  }
+  .card .card-body{
+    padding: 0.5rem;
+  }
+  
+  .card .card-body p,
+  .card .card-body h5{
+    font-size: 1rem;
+  }
+}

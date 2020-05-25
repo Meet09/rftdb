@@ -1,0 +1,157 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1, shrink-to-fit=no">
+	<title>Store | TDB</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+	<link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+</head>
+<body>
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+		<a class="navbar-brand" href="index.html">Top navbar</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarCollapse">
+		<ul class="navbar-nav mr-auto">
+			<li class="nav-item active">
+				<a class="nav-link" href="store.html">Store <span class="sr-only">(current)</span></a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="newz.html">News</a>
+			</li>
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Communities</a>
+				<div class="dropdown-menu" aria-labelledby="dropdown01">
+					<a class="dropdown-item" href="#">Fashion Hub</a>
+		        	<a class="dropdown-item" href="#">Game Design</a>
+		        	<a class="dropdown-item" href="#">Architecturals</a>
+				</div>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="challenges.html">Challenges</a>
+			</li>
+
+		</ul>
+		<form class="form-inline mt-2 mt-md-0">
+			<input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+			<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+		</form>
+		</div>
+	</nav>
+	<div class="jumbotron">
+    		<h1>Trending Products</h1>
+    		<p class="lead">This example is a quick exercise to illustrate how the top-aligned navbar works. As you scroll, this navbar remains in its original position and moves with the rest of the page.</p>
+   		 	<a class="btn btn-lg btn-primary" href="{% static '/docs/4.3/components/navbar/' %}" role="button">View Trendings Products &raquo;</a>
+  		</div>
+
+	<main role="main" class="container-fluid">
+		<div class="container">
+			<div class="row">
+	  			<div class="col-6 col-md-3 col-sm-3 col-lg-3">
+					<div class="card">
+						<img src="{% static 'img/wallhaven-eyvx8l.jpg' %}" class="card-img-top photo" alt="...">
+						<div class="card-body">
+						<h5 class="card-title">Violet Wolf</h5>
+						<p class="card-text">Price : 8.00 $</p>
+						<a href="#" class="btn btn-success btn-sm">Buy</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-6 col-md-3 col-sm-3 col-lg-3">
+					<div class="card">
+						<img src="img/wallhaven-g8171e.png" class="card-img-top photo" alt="...">
+						<div class="card-body">
+						<h5 class="card-title">Heaven Way</h5>
+						<p class="card-text"> 8.00 $</p>
+						<a href="#" class="btn btn-success btn-sm">Buy</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-6 col-md-3 col-sm-3 col-lg-3">
+					<div class="card">
+						<img src="img/wallhaven-oxj7mm.jpg" class="card-img-top photo" alt="...">
+						<div class="card-body">
+						<h5 class="card-title">Rainbow Culture</h5>
+						<p class="card-text"> 8.00 $</p>
+						<a href="#" class="btn btn-success btn-sm">Buy</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-6 col-md-3 col-sm-3 col-lg-3">
+					<div class="card">
+						<img src="img/designer_office.jpg" class="card-img-top photo" alt="...">
+						<div class="card-body">
+						<h5 class="card-title">Inspiring Work</h5>
+						<p class="card-text"> 8.00 $</p>
+						<a href="#" class="btn btn-success btn-sm">Buy</a>
+						</div>
+					</div>
+				</div>
+  			</div>
+  			<!-- </div> -->
+  			<div class="row">
+	  			<div class="col-md-3 col-sm-3 col-lg-3">
+					<div class="card">
+						<img src="img/wallhaven-eyvx8l.jpg" class="card-img-top photo" alt="...">
+						<div class="card-body">
+						<h5 class="card-title">Violet Wolf</h5>
+						<p class="card-text"> 8.00 $</p>
+						<a href="#" class="btn btn-primary">Buy</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-3 col-sm-3 col-lg-3">
+					<div class="card">
+						<img src="img/wallhaven-g8171e.png" class="card-img-top photo" alt="...">
+						<div class="card-body">
+						<h5 class="card-title">Heaven Way</h5>
+						<p class="card-text"> 8.00 $</p>
+						<a href="#" class="btn btn-primary">Buy</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-3 col-sm-3 col-lg-3">
+					<div class="card">
+						<img src="img/wallhaven-oxj7mm.jpg" class="card-img-top photo" alt="...">
+						<div class="card-body">
+						<h5 class="card-title">Rainbow Culture</h5>
+						<p class="card-text"> 8.00 $</p>
+						<a href="#" class="btn btn-primary">Buy</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-3 col-sm-3 col-lg-3">
+					<div class="card">
+						<img src="img/motherLove.jpg" class="card-img-top photo" alt="...">
+						<div class="card-body">
+						<h5 class="card-title">Inspiring Work</h5>
+						<p class="card-text"> 8.00 $</p>
+						<a href="#" class="btn btn-primary">Buy</a>
+						</div>
+					</div>
+				</div>
+  			</div>
+
+		</div>
+
+  		</div>
+	</main>
+
+
+
+
+
+	<script src="{% static 'js/jquery-3.3.1.slim.min.js' %}" ></script>
+	<script src="{% static 'js/popper.min.js' %}"></script>
+	<script src="{% static 'js/bootstrap.min.js' %}"></script>
+</body>
+</html>
